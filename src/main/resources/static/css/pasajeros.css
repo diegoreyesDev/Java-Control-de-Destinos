@@ -1,0 +1,103 @@
+/* medida de la pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* font family */
+body {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+/* navbar */
+#navbar {
+    background-color: #959191;
+    border-bottom: 1px solid #e0e0e0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+/* final navbar */
+
+/* estilos de la pagina */
+
+/* titulo */
+
+
+/* tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid rgb(161, 72, 72);
+    margin-top: 50px;
+}
+
+.table th, .table td {
+    border: 1px solid rgb(161, 72, 72);
+    padding: 8px;
+    text-align: left;
+    font-size: 15px;
+}
+
+/* boton agregar */
+#botonAgregar {
+    border: 1px solid #e0e0e0;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Saira Condensed', sans-serif;
+    padding: 0px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* boton editar */
+#botonEditar {
+    border: 1px solid #e0e0e0;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Saira Condensed', sans-serif;
+    padding: 0px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* boton eliminar */
+#botonEliminar {
+    border: 1px solid #e0e0e0;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Saira Condensed', sans-serif;
+    padding: 0px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* footer */
+.footer {
+    background-color: #959191;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+    font-size: 12px;
+    font-family: 'Saira Condensed', sans-serif;
+}
